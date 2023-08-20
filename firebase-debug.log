@@ -1,0 +1,104 @@
+[debug] [2023-08-20T12:12:26.209Z] ----------------------------------------------------------------------
+[debug] [2023-08-20T12:12:26.211Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Artin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-08-20T12:12:26.211Z] CLI Version:   12.4.8
+[debug] [2023-08-20T12:12:26.212Z] Platform:      win32
+[debug] [2023-08-20T12:12:26.212Z] Node Version:  v18.16.0
+[debug] [2023-08-20T12:12:26.212Z] Time:          Sun Aug 20 2023 15:42:26 GMT+0330 (Iran Standard Time)
+[debug] [2023-08-20T12:12:26.213Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-20T12:12:26.215Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-08-20T12:12:26.251Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-20T12:12:26.252Z] > authorizing via signed-in user (artin121azad@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Artin\Desktop\netflix
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-08-20T12:12:34.629Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-08-20T12:12:35.247Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 403
+[debug] [2023-08-20T12:12:35.247Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2023-08-20T12:12:35.248Z] Unable to parse JSON: SyntaxError: Unexpected token < in JSON at position 0
+[debug] [2023-08-20T12:12:35.249Z] FirebaseError: Unable to parse JSON: SyntaxError: Unexpected token < in JSON at position 0
+    at RetryOperation._fn (C:\Users\Artin\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:257:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2023-08-20T12:13:27.221Z] ----------------------------------------------------------------------
+[debug] [2023-08-20T12:13:27.223Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Artin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-08-20T12:13:27.224Z] CLI Version:   12.4.8
+[debug] [2023-08-20T12:13:27.224Z] Platform:      win32
+[debug] [2023-08-20T12:13:27.224Z] Node Version:  v18.16.0
+[debug] [2023-08-20T12:13:27.225Z] Time:          Sun Aug 20 2023 15:43:27 GMT+0330 (Iran Standard Time)
+[debug] [2023-08-20T12:13:27.225Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-20T12:13:27.228Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-08-20T12:13:27.268Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-20T12:13:27.268Z] > authorizing via signed-in user (artin121azad@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Artin\Desktop\netflix
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-08-20T12:13:41.610Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: read ECONNRESET
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2023-08-20T12:13:41.612Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2023-08-20T12:13:44.374Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-08-20T12:13:44.937Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 403
+[debug] [2023-08-20T12:13:44.938Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2023-08-20T12:13:44.938Z] Unable to parse JSON: SyntaxError: Unexpected token < in JSON at position 0
+[debug] [2023-08-20T12:13:44.940Z] FirebaseError: Unable to parse JSON: SyntaxError: Unexpected token < in JSON at position 0
+    at RetryOperation._fn (C:\Users\Artin\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:257:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2023-08-20T12:13:48.680Z] ----------------------------------------------------------------------
+[debug] [2023-08-20T12:13:48.683Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Artin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-08-20T12:13:48.684Z] CLI Version:   12.4.8
+[debug] [2023-08-20T12:13:48.684Z] Platform:      win32
+[debug] [2023-08-20T12:13:48.684Z] Node Version:  v18.16.0
+[debug] [2023-08-20T12:13:48.685Z] Time:          Sun Aug 20 2023 15:43:48 GMT+0330 (Iran Standard Time)
+[debug] [2023-08-20T12:13:48.685Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-20T12:13:48.688Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-08-20T12:13:48.726Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-20T12:13:48.726Z] > authorizing via signed-in user (artin121azad@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Artin\Desktop\netflix
+
+[debug] [2023-08-20T12:14:20.840Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: connect ETIMEDOUT 10.10.34.35:443
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2023-08-20T12:14:20.844Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
